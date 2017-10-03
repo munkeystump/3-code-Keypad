@@ -95,4 +95,6 @@ void puzzlereset() {
   for (int i = 0 ; i < ledNum ; i++) {
     digitalWrite(ledpins[i], LOW);
   }
+  digitalWrite(lock, LOW);
+
 }
